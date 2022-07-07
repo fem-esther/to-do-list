@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    display: block;
+}
+nav{
+    margin-left: 1130px;
+    /* margin-right: 10px; */
+    
+}
+nav ul li{
+    list-style-type: none;
+   margin:30px 20px 0 0;
+   display: inline-block;
+   font-weight: 700;
+   color: black;
+   align-items: center;
+   cursor: pointer;
+}
+nav ul li:hover {
+    text-decoration: underline;
+}
+input{
+    border-radius: 16px;
+    width: 500px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.maint{
+    /* margin-top: 500px; */
+    margin-left: 450px;
+
+} 
+.imgool{
+    height: 100px;
+    width: 300px;
+    background: url(/img/Google_2015_logo.svg-removebg-preview.png);
+    background-size: cover;
+    margin-left: 91px;
+    margin-top: 150px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(71, 64, 64);
+    color: black;
+    border: none;
+    outline: none;
+}
+button:hover{
+    background-color: rgb(63, 54, 54);
+}
+p{
+    margin-top: 15px;
+    margin-left: 63px;
+}
+a{
+    text-decoration-line: none;
+    
+}
+
+.position{
+    position: relative;
+}
+
+.icons1{
+    position: absolute;
+    top: 30px;
+    right: 870px;
+}
+
+.icons2{
+    position: absolute;
+    /* right: 70px; */
+    top: 30px;
+    right: 440px;
+}
